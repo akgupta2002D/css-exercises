@@ -46,3 +46,19 @@ a {
 ul {
   list-style-type: none;
 }
+
+.header, .logo_links_container, .noti_profile_container, ul{
+  display: flex;
+  /* flex-direction: row; */
+  
+  align-items: center;
+  gap: 16px;
+}
+
+.logo_links_container{
+  margin-right: auto;
+}
+
+.header{
+  padding: 0px 8px;
+}
